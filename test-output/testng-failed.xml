@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="HRM.PageTests.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="reporting"/>
+          <include name="reportclose"/>
+        </methods>
+      </class> <!-- HRM.PageTests.LoginPageTest -->
+      <class name="HRM.PageTests.PIMAddEmployee">
+        <methods>
+          <include name="addEmployee" invocation-numbers="2"/>
+          <include name="results"/>
+        </methods>
+      </class> <!-- HRM.PageTests.PIMAddEmployee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
